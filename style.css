@@ -18,5 +18,6 @@ color: darkred;
 
 section {
 background-color: gold;
-padding: 15px;   
+padding: 15px; 
+border-radius: 10px;  
 }
