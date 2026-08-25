@@ -49,3 +49,9 @@ transition: transform 0.3s ease;
 .project-card:hover {
     transform: translateY(-5px);
 }
+
+#projekty {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
