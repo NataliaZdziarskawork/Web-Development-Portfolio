@@ -59,3 +59,8 @@ transition: transform 0.3s ease;
 #projekty h2 {
     grid-column: 1 / -1;
 }
+@media (max-width: 600px) {
+    #projekty {
+        grid-template-columns: 1fr;
+    }
+}
