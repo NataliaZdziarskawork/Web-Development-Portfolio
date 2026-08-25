@@ -51,7 +51,11 @@ transition: transform 0.3s ease;
 }
 
 #projekty {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+#projekty h2 {
+    grid-column: 1 / -1;
 }
