@@ -124,3 +124,6 @@ transition: transform 0.2s ease;
     list-style: none;
     padding: 0;
 }
+p {
+    line-height: 1.6;
+}
