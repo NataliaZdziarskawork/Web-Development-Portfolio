@@ -64,6 +64,11 @@ transition: transform 0.3s ease;
     #projekty {
         grid-template-columns: 1fr;
     }
+#kontakt a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
 }
 
 nav {
