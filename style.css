@@ -38,3 +38,9 @@ border-radius: 8px;
 a:hover {
 background-color: #1d4ed8;    
 }
+
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
