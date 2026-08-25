@@ -87,3 +87,18 @@ section {
     margin: 20px 0;
     border-radius: 12px;
 }
+
+#kontakt a {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#kontakt a:hover {
+    background-color: #1e40af;
+}
