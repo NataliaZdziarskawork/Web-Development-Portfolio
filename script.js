@@ -11,6 +11,6 @@ const komunikat = document.querySelector('#komunikat-formularza');
 formularz.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    komunikat.textContent = 'Dziękuję za wiadomość! Skontaktuję się z Tobą.';
+    komunikat.textContent = 'Wiadomość została przygotowana. Dziękuję za kontakt!';
     formularz.reset();
 });
