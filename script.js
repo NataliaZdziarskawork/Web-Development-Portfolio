@@ -11,6 +11,20 @@ const komunikat = document.querySelector('#komunikat-formularza');
 formularz.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    komunikat.textContent = 'Wiadomość została przygotowana. Dziękuję za kontakt!';
-    formularz.reset();
+    const imie = document.querySelector('#imie').value;
+    const email = document.querySelector('#email').value;
+    const wiadomosc = document.querySelector('#wiadomosc-formularza').value;
+
+    const temat = 'Zapytanie ze strony wizytówki';
+
+    const tresc =
+        `Imię: ${imie}\n` +
+        `E-mail: ${email}\n\n` +
+        `Wiadomość:\n${wiadomosc}`;
+
+    const mailto = `mailto:barbararakowsa34@gmail.com?subject=${encodeURIComponent(temat)}&body=${encodeURIComponent(tresc)}`;
+
+    window.location.href = mailto;
+
+    komunikat.textContent = 'Otwieram program pocztowy...';
 });
