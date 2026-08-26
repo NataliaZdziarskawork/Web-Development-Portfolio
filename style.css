@@ -91,7 +91,8 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 8px;
+    padding: 5px;
 }
 
 nav a:hover {
