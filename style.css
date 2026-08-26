@@ -14,8 +14,13 @@ font-size: 36px;
 }
 
 h2 {
-font-size:20px;
+font-size:24px;
 color: #243b53;
+margin-bottom: 15px;
+}
+.project-card h3 {
+    font-size: 20px;
+    color: darkred;
 }
 
 section {
