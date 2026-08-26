@@ -2,7 +2,7 @@ body {
     background-color: #f2f6fc;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    margin: 0;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -11,6 +11,7 @@ font-size: 36px;
     color: darkblue;
     text-align: center;
     margin: 30px 0;
+    max-width: 1000px;
 }
 
 h2 {
