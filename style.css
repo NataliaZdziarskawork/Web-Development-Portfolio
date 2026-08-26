@@ -20,9 +20,9 @@ color: #243b53;
 
 section {
 background-color: #faf3dd;
-padding: 15px; 
-border-radius: 10px; 
-margin-bottom: 15px; 
+padding: 25px; 
+border-radius: 12px; 
+margin: 20px 0;
 }
 
 a {
@@ -85,12 +85,6 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-}
-
-section {
-    padding: 25px;
-    margin: 20px 0;
-    border-radius: 12px;
 }
 
 #kontakt a {
