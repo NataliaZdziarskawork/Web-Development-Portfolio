@@ -35,8 +35,7 @@ Projekt zawiera responsywną wizytówkę internetową z sekcjami:
 
 Tutaj znajduje się działająca wersja strony:
 
-WKLEJ_TUTAJ_SWÓJ_LINK_GITHUB_PAGES
-
+https://nataliazdziarskawork.github.io/Web-Development-Portfolio/
 ## Autor
 
 Natalia — Web Development
