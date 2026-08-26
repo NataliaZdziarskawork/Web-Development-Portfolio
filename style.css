@@ -168,3 +168,9 @@ footer {
 .project-card a:hover {
     transform: scale(1.03);
 }
+
+#o-mnie p {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
