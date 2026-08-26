@@ -215,3 +215,46 @@ section:hover {
 #start {
     border: 2px solid #2563eb;
 }
+
+#formularz-kontaktowy {
+    max-width: 600px;
+    margin: 20px auto 0;
+}
+
+#formularz-kontaktowy label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formularz-kontaktowy input,
+#formularz-kontaktowy textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#formularz-kontaktowy textarea {
+    resize: vertical;
+}
+
+#formularz-kontaktowy button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#formularz-kontaktowy button:hover {
+    background-color: #1e40af;
+}
