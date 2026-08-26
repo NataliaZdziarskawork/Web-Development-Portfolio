@@ -22,7 +22,7 @@ formularz.addEventListener('submit', function(event) {
         `E-mail: ${email}\n\n` +
         `Wiadomość:\n${wiadomosc}`;
 
-    const mailto = `mailto:nataliazdziarska@gmail.com?subject=${encodeURIComponent(temat)}&body=${encodeURIComponent(tresc)}`;
+    const mailto = `mailto:natalia.zdziarska.work@gmail.com?subject=${encodeURIComponent(temat)}&body=${encodeURIComponent(tresc)}`;
 
     window.location.href = mailto;
 
