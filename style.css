@@ -68,6 +68,9 @@ transition: transform 0.3s ease;
     grid-column: 1 / -1;
 }
 @media (max-width: 600px) {
+h1 {
+    font-size: 28px;
+}
 nav a {
     display: block;
     margin: 5px 0;
